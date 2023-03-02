@@ -1,5 +1,7 @@
+pickle5==0.0.12
+pathlib==1.0.1
+Pillow==9.4.0
 streamlit
-plotly==4.14.3
-matplotlib==3.4.1
+pandas==1.5.3
+plotly==5.13.1
 scikit-learn
-Pillow
