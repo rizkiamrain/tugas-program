@@ -2,7 +2,7 @@ import pickle
 from pathlib import Path
 from PIL import Image
 from streamlit_option_menu import option_menu
-from st_functions import st_button
+from st_functions import st_button, load_css
 import pandas as pd  # pip install pandas openpyxl
 import plotly.express as px  # pip install plotly-express
 import streamlit as st  # pip install streamlit
