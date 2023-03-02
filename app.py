@@ -8,6 +8,7 @@ import plotly.express as px  # pip install plotly-express
 import streamlit as st  # pip install streamlit
 import streamlit_authenticator as stauth  # pip install streamlit-authenticator
 
+
 # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="program rizki amrain", page_icon=":bar_chart:", layout="wide")
 
@@ -36,14 +37,15 @@ if authentication_status:
     authenticator.logout("Logout", "sidebar")
     st.sidebar.title(f"Welcome {name}")
     st.sidebar.header("Pilih Menu :")
+    
     with st.sidebar:
-        selected = option_menu ('MOH. RIZKI AMRAIN',
+        selected = option_menu('MOH. RIZKI AMRAIN',
         ['Home',
         'Menghitung Gaji Karyawan',
         'Menu Menghitung Matematika',
         'Menghitung Harga Jual Tanah'],
         default_index=0)
-        
+
     if (selected == 'Home'):
         load_css()
         col1, col2, col3 = st.columns(3)
