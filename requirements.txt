@@ -4,3 +4,4 @@ streamlit
 pandas==1.5.3
 plotly==5.13.1
 scikit-learn
+streamlit-option-menu==0.3.2
